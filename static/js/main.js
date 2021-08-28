@@ -502,6 +502,7 @@ $(() => {
 
     // Au click sur le bouton HIT
     $("#hit-btn").on("click", (e) => {
+        console.log('je pioche');
         // On fait piocher une carte au joueur
         table.playerPicking();
         // On met à jour l'affichage des cartes et du score 
@@ -512,6 +513,7 @@ $(() => {
     // Au click sur le bouton STAND
     $("#stand-btn").on("click", (e) => {
 
+        console.log('je reste');
         // On fait disparaître les boutons HIT et STAND
         $("#hit-btn").hide();
         $("#stand-btn").hide();
