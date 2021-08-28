@@ -1,0 +1,22 @@
+{
+    "name": "blackjack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MorcilloA/Blackjack.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MorcilloA/Blackjack/issues"
+    },
+    "homepage": "https://github.com/MorcilloA/Blackjack#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

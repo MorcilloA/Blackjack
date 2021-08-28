@@ -358,7 +358,7 @@ function updateBank() {
     bank_score.textContent = 0;
     table.bankCards.forEach(card => {
         let image = document.createElement("img")
-        image.setAttribute("src", `/static/images/cards/${card.valueStr}-${card.color}.png`)
+        image.setAttribute("src", `/images/cards/${card.valueStr}-${card.color}.png`)
         bank_cards.append(image)
 
     });
@@ -444,7 +444,7 @@ function updatePlayer() {
     player_score.textContent = 0;
     table.playerCards.forEach(card => {
         let image = document.createElement("img")
-        image.setAttribute("src", `/static/images/cards/${card.valueStr}-${card.color}.png`)
+        image.setAttribute("src", `/images/cards/${card.valueStr}-${card.color}.png`)
         player_cards.append(image);
     });
 
