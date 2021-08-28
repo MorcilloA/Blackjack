@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/external/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>BlackJack</title>
+</head>
+
+<body>
+
+    <button id="auto-btn" class="btn btn-info">Automatiser</button>
+
+    <div class="row justify-content-center" id="bank-table">
+        <div class="col text-center text-warning">
+            <h3>Table de la banque</h3>
+            <p class="bank-score-display"><span id="bank-score">0</span></p>
+            <p id="bank-score-status"></p>
+            <div id="bank-cards"></div>
+        </div>
+    </div>
+
+    <!-- <div class="row justify-content-center" id="game-result"></div> -->
+
+    <div class="row justify-content-center" id="player-table">
+        <div class="col text-center text-info">
+            <h3>Table du joueur</h3>
+            <button class="btn btn-success" id="hit-btn">HIT</button>
+            <button class="btn btn-warning" id="stand-btn">STAND</button>
+            <button class="btn btn-primary" id="next-btn">NEXT TURN</button>
+            <p class="player-score-display">
+                <span id="player-score">0</span>
+                <span id="player-score-status"></span>
+            </p>
+            <div id="player-cards" class="mt-3 mw-25"></div>
+        </div>
+        <div id="player-money-display" class="text-info">
+            <p>Vous avez misé : <span id="player-bet">0</span> €</p>
+            <p>Vous avez : <span id="player-money">0</span> €</p>
+        </div>
+    </div>
+
+</body>
+<script src="./static/js/external/jquery-3.6.0.min.js"></script>
+<script src="./static/js/external/sweetalert2.all.min.js"></script>
+
+<script src="./static/js/Card.js"></script>
+<script src="./static/js/Deck.js"></script>
+<script src="./static/js/Table.js"></script>
+<script type="module" src="./static/js/main.js"></script>
+
+</html>

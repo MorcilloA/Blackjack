@@ -1,0 +1,44 @@
+body {
+    background-image: url("./../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    display: grid;
+}
+
+.player-score-display {
+    position: absolute;
+    left: 75%;
+    top: 75%;
+    font-size: 4em;
+}
+
+#player-money-display {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    font-size: 1.3em;
+}
+
+#player-score-status {
+    display: block;
+    font-size: 0.5em;
+    margin-top: -20px;
+}
+
+#player-table {
+    margin-top: 120px;
+}
+
+#auto-btn {
+    width: fit-content;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.bank-score-display {
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    font-size: 4em;
+}
