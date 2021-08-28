@@ -500,6 +500,8 @@ $(() => {
         }
     })
 
+    console.log("ça charge");
+
     // Au click sur le bouton HIT
     $("#hit-btn").on("click", (e) => {
         console.log('je pioche');
